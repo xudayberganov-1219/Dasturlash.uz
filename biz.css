@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding-left: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    
+        
+}
+
+:root {
+    --Danger:rgb(35, 166, 240);
+    --Dark:rgb(255, 255, 255);
+    --Success: rgb(35, 166, 240);
+    --xs: 32px;
+    --sm: 21px;
+    --md: 21px;
+    --lg: 45px;
+    --margin-block: 110px;
+    --font: Poppins;
+    --border-radius: 6px;
+}
+
+.page-header{
+    background-color:#101113;;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+
+.content {
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    
+}
+.header-logo{
+    margin-right: 20px;
+    text-align: left;
+    margin-left: 240px;
+    gap: 5px;
+}
+.img{
+    margin-top: 10px;
+    margin-bottom: -15px;
+    width: 80px;
+    height: 80px;
+}
+.search_block{
+    margin: 10px;
+    font-size: 24px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+.header-nav {
+    display: flex;
+    gap: 50px;
+    margin-top: 25px;
+}
+
+.header-nav_link{
+    color: var(--Dark);
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.header-nav_link:hover{
+    color: blue;
+}
+
+.header-button{
+    background-color: #212529;
+    color: var(--Dark);
+    font-size: 20px;
+
+}
+.header-button:hover{
+    padding: 10px;
+    border-color: aliceblue;
+    border-radius: 25px;
+}
+.page-section{
+    background-color: white;
+}
+p{
+    color: black;
+    height: 900px;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+a{
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    color:red;
+}
+b{
+    color: ;
+}
